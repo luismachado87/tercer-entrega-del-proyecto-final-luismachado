@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+    <title>cultiva</title>
+</head>
+<div class="titulo1">
+    <h1>cultiva</h1>
+</div>
+<body>
+    <div>
+        <br>
+        <header id="menu">
+            <nav>
+                <a href="index.html"><img src="./img/logo.png.webp" class="huerta.jpg" alt="logo" width="500" height="400"></a>
+              <div>
+                <ul>
+                    <li><a href="index.html">principal</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="nosotros.html">nosotros</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+    
+    <section>
+        <section class="form-register">
+            <h4>Formulario Registro</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            <input class="botons" type="submit" value="Registrar">
+            <p><a href="#">¿Ya tengo Cuenta?</a></p>
+          </section>
+    </section>
+    <footer>
+        <h3>TE ASESORAMOS!</h3>
+            <ul>
+                <li>Atención ventas online x WHATSAPP +54911 3648 0000</li>
+                <li>Atención vivero +5411 59174350</li>
+            </ul>
+            <hr>
+            <a href="mailto:ventas@cultivaencasa.com.ar">contactanos</a>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = function(){
+            if(window.pageYOffset>10){
+                menu.style.backgroundColor='#fff';
+            }
+            else{
+                menu.style.backgroundColor='initial';
+            }
+        }
+     </script>   
+    
+</body>
+</html>

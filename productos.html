@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+    <title>cultiva</title>
+</head>
+<div class="titulo1">
+    <h1>cultiva</h1>
+</div>
+<body>
+    <div>
+        <br>
+        <header id="menu">
+            <nav>
+                <a href="index.html"><img src="./img/logo.png.webp" class="huerta.jpg" alt="logo" width="500" height="400"></a>
+              <div>
+                <ul>
+                    <li><a href="index.html">principal</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="nosotros.html">nosotros</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+    <br><br><br>
+    <section>
+      <div class="container">
+        <table class="table">
+            <caption>aditivos</caption>
+            <thead>
+                <tr>
+                    <th>producto</th>
+                    <th>Precio</th>
+                    <th>cantidad</th>
+                    <th>entrega</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="producto">Alga Bloom Plagron</td>
+                    <td data-label="Precio">$14.899.00</td>
+                    <td data-label="cantidad">x 1 litro</td>
+                    <td data-label="entrega">retiro en local/envio x correo</td>
+                </tr>
+                
+                <tr>
+                    <td data-label="producto">Ancient Earth Organic</td>
+                    <td data-label="Precio">$18,500.00</td>
+                    <td data-label="cantidad">x 1 litro</td>
+                    <td data-label="entrega">retiro en local/envio x correo</td>
+                </tr>
+                <tr>
+                    <td data-label="producto">B-52 Advanced Nutrients</td>
+                    <td data-label="Precio">$26,200.00</td>
+                    <td data-label="cantidad">x 1 litro</td>
+                    <td data-label="entrega">retiro en local/envio x correo</td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="agregar al carro">agregar al carro</button>
+        <br>
+        <br>
+        <input type="text" name="cantidad" id="" placeholder="ingrese cantidad">
+        <br>
+        <br>
+        <input type="text" name="" id="" placeholder="metodo de pago">
+    </div>
+
+    </section>
+    <footer>
+        <h3>TE ASESORAMOS!</h3>
+            <ul>
+                <li>Atención ventas online x WHATSAPP +54911 3648 0000</li>
+                <li>Atención vivero +5411 59174350</li>
+            </ul>
+            <hr>
+            <a href="mailto:ventas@cultivaencasa.com.ar">contactanos</a>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = function(){
+            if(window.pageYOffset>10){
+                menu.style.backgroundColor='#fff';
+            }
+            else{
+                menu.style.backgroundColor='initial';
+            }
+        }
+     </script>   
+    
+</body>
+</html>
